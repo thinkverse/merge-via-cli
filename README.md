@@ -1,8 +1,10 @@
-## 🧙‍♂️ Testing merging branched via CLI
+# 🧙‍♂️ Testing merging branched via CLI
 
 I've never tested this before actually... huh, that was easy. 🤘
 
-#### Using github-cli
+---
+
+## Using github-cli ([cli/cli])
 
 First lets create a new branch to add our LICENSE.
 
@@ -28,7 +30,9 @@ Now locally we have been moved back into our `master` branch.
 master > .
 ```
 
-#### Using regular git
+---
+
+## Using regular git
 
 Our steps are exactly the same expect we're using regular git, so let's create our new branch.
 
@@ -60,3 +64,5 @@ Now we have to do the clean-up on remote and local ourselves, so let's push a de
 master > git push --delete origin branch-02
 master > git branch -D branch-02
 ```
+
+[cli/cli]: https://github.com/cli/cli
